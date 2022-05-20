@@ -37,7 +37,7 @@ public class LibretaCalificacion {
     }
 
     public void establecerPromedioCualitativo() {
-        if ((obtenerPromedio() >= 0) && (obtenerPromedio() <= 3.09)) {
+        if ((promedio >= 0) && (promedio <= 3.09)) {
             promedioCualitativo = "Regular";
         } else {
             if ((obtenerPromedio() >= 3.1) && (obtenerPromedio() <= 5.09)) {
